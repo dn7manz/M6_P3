@@ -1,0 +1,13 @@
+{
+  "id": "did:example:student456",
+  "publicKey": [{
+    "id": "did:example:student456#keys-1",
+    "type": "Ed25519VerificationKey2018",
+    "controller": "did:example:student456",
+    "publicKeyBase58": "2B5s9kF...XYZ"
+  }],
+  "authentication": [{
+    "type": "Ed25519SignatureAuthentication2018",
+    "publicKey": "did:example:student456#keys-1"
+  }]
+}
