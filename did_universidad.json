@@ -1,14 +1,15 @@
 {
-  "id": "did:example:university123",  // Identificador descentralizado (DID) único de la universidad.
-  "publicKey": [{  //  Ajuste claves públicas asociadas con el DID.
-    "id": "did:example:university123#keys-1",  // Identificador único para una clave pública específica dentro del contexto del DID.
-    "type": "RsaVerificationKey2018",  // Tipo de clave pública y el algoritmo utilizado (RSA en este caso).
-    "controller": "did:example:university123",  // El controlador de la clave pública (la universidad en este caso).
-    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----"  // La clave pública en formato PEM.
+  "id": "did:example:university123",
+  "publicKey": [{
+    "id": "did:example:university123#keys-1",
+    "type": "RsaVerificationKey2018",
+    "controller": "did:example:university123",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----"
   }],
-  "authentication": [{  // Ajustes de métodos de autenticación que pueden usarse con este DID.
-    "type": "RsaSignatureAuthentication2018",  // Tipo de autenticación y el algoritmo utilizado (RSA en este caso).
-    "publicKey": "did:example:university123#keys-1"  // Referencia a la clave pública específica que se usa para la autenticación.
+  "authentication": [{
+    "type": "RsaSignatureAuthentication2018",
+    "publicKey": "did:example:university123#keys-1"
   }]
 }
+
 
