@@ -12,6 +12,8 @@ A continuación se presentan las estructuras de datos utilizadas en este caso de
 
 ### DID Document del Emisor (Universidad)
 
+Un DID Document del Emisor (Universidad) es un documento estructurado que contiene información sobre una entidad que emite credenciales verificables utilizando el método DID (Decentralized Identifier). Este documento proporciona detalles sobre las claves públicas asociadas con el DID de la universidad y los métodos de autenticación que puede utilizar para demostrar la propiedad de esas claves. 
+
 ```json
 {
   "id": "did:example:university123",  // Identificador descentralizado (DID) único de la universidad.
@@ -29,6 +31,8 @@ A continuación se presentan las estructuras de datos utilizadas en este caso de
 ```
 
 ### DID Document del titular (Estudiamte)
+
+Un DID Document del titular (Estudiante) es un documento estructurado que contiene información sobre un individuo que posee credenciales verificables utilizando el método DID (Decentralized Identifier). Este documento proporciona detalles sobre las claves públicas asociadas con el DID del estudiante y los métodos de autenticación que puede utilizar para demostrar la propiedad de esas claves.
 
 ```json
 {
@@ -48,6 +52,7 @@ A continuación se presentan las estructuras de datos utilizadas en este caso de
 
 ### Credencial Verificable (VC)
 
+Una Credencial Verificable (VC) es un tipo de documento digital que representa afirmaciones sobre un individuo, emitido por una entidad confiable, y que puede ser verificado de manera independiente. Estas credenciales están diseñadas para ser interoperables y seguras en entornos descentralizados
 
 ```json
 {
@@ -78,6 +83,7 @@ A continuación se presentan las estructuras de datos utilizadas en este caso de
 
 ### Presentación Verificable (VP)
 
+Una Presentación Verificable (VP) es un conjunto de una o más credenciales verificables (VCs) que un sujeto (individuo, organización, dispositivo, etc.) presenta a un verificador para demostrar ciertas afirmaciones sobre sí mismo de manera segura y verificable en entornos descentralizados.
 
 ```json
 {
@@ -122,4 +128,9 @@ A continuación se presentan las estructuras de datos utilizadas en este caso de
   }
 }
 ```
+
+### Conclusion final
+
+En esta práctica hemos explorado el flujo de emisión y verificación de credenciales utilizando tecnologías basadas en Identificadores Descentralizados (DIDs), Credenciales Verificables (VCs) y Presentaciones Verificables (VPs).
+Estas tecnologías permiten establecer un marco seguro y descentralizado para la gestión y verificación de identidades y credenciales, facilitando la interoperabilidad y la privacidad en el intercambio de información digitalmente.
 
